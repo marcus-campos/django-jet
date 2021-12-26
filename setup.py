@@ -12,7 +12,7 @@ def read(fname):
 
 
 def get_install_requires():
-    install_requires = ['Django']
+    install_requires = ['Django', 'six']
 
     try:
         import importlib  # NOQA
@@ -28,15 +28,13 @@ def get_install_requires():
 
 
 setup(
-    name='rs-django-jet',
+    name='django-3-jet',
     version=__import__('jet').VERSION,
-    description='Fork of django-jet with Reckonsys customizations',
+    description='Modern template for Django-3 admin interface with improved functionality',
     long_description=read('README.rst'),
     author='Denis Kildishev',
-    author_email='support@jet.geex-arts.com',
-    maintainer='Govind Sharma',
-    maintainer_email='info@reckonsys.com',
-    url='https://github.com/reckonsys/rs-django-jet',
+    author_email='barukimang@gmail.com',
+    url='https://github.com/Barukimang/django-jet/',
     packages=find_packages(),
     license='AGPLv3',
     classifiers=[
