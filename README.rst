@@ -1,11 +1,11 @@
 ================================
-Django JET (Django-3 compatible)
+Django JET (Django-4 compatible)
 ================================
 
 .. image:: https://travis-ci.org/geex-arts/django-jet.svg?branch=master
     :target: https://travis-ci.org/geex-arts/django-jet
 
-**Modern template for Django-3 admin interface with improved functionality**
+**Modern template for Django-4 admin interface with improved functionality**
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
 | Attention! **NEW JET**                                                                                                            |
